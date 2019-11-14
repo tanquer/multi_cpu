@@ -1,0 +1,14 @@
+ISim log file
+Running: E:\D\multi_cpu\multi_cpu\sim_CPU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/D/multi_cpu/multi_cpu/sim_CPU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/IR_Data/, width 11 of formal port addra is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sim_CPU.uut.IR_Data.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

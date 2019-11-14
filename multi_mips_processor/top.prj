@@ -1,0 +1,8 @@
+verilog work "sign_exten.v"
+verilog work "Regs.v"
+verilog work "ipcore_dir/memory.v"
+verilog work "CPU.v"
+verilog work "clk_25mhz.v"
+verilog work "ALUctr.v"
+verilog work "ALU.v"
+verilog work "top.v"

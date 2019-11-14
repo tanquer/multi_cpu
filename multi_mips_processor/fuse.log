@@ -1,0 +1,39 @@
+Running: E:\ISE14.7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/D/multi_cpu/multi_cpu/sim_CPU_isim_beh.exe -prj E:/D/multi_cpu/multi_cpu/sim_CPU_beh.prj work.sim_CPU work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/sign_exten.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/Regs.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/ipcore_dir/memory.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/CPU.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/clk_25mhz.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/ALUctr.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/ALU.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/top.v" into library work
+Analyzing Verilog file "E:/D/multi_cpu/multi_cpu/sim_CPU.v" into library work
+Analyzing Verilog file "E:/ISE14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/D/multi_cpu/multi_cpu/top.v" Line 54: Size mismatch in connection of port <addra>. Formal port size is 11-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module clk_25mhz
+Compiling module CPU
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module memory
+Compiling module sign_exten
+Compiling module ALUctrl
+Compiling module ALU
+Compiling module Regs
+Compiling module top
+Compiling module sim_CPU
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\sim_CPU_isim_beh.exe.sim\libPortability.dll".
+Compiled 14 Verilog Units
+Built simulation executable E:/D/multi_cpu/multi_cpu/sim_CPU_isim_beh.exe
+Fuse Memory Usage: 33076 KB
+Fuse CPU Usage: 593 ms

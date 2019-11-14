@@ -1,2 +1,4 @@
 # multi_cpu
-Multi-Cycle MIPS Processor
+
+A simple Multi-Cycle MIPS Processor which could execute MIPS instruction subset.
+
